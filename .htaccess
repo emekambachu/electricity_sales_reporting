@@ -1,0 +1,10 @@
+# Turn mod_rewrite on
+RewriteEngine On
+
+#Modify Urls for Page Navigation
+RewriteRule ^Login?$ index.php [NC,L]
+
+RewriteRule ^Dashboard?$ dashboard.php [NC,L]
+RewriteRule ^Sales-report?$ sales_report.php [NC,L]
+
+RewriteRule ^Logout?$ logout.php [NC,L]
